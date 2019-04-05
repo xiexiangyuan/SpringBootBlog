@@ -1,6 +1,6 @@
-# My Blog
-
-My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系统，博客模板是[@biezhi](https://github.com/biezhi)大神的开源项目[tale](https://github.com/otale/tale)，本来是一个docker和springboot的实战练习项目，目前已经开源，功能齐全、部署简单及完善的代码，一定会给使用者无与伦比的体验，如果觉得这个项目不错，请为它[点赞](https://github.com/ZHENFENG13/My-Blog/stargazers)支持。
+# Springboot blog
+以下内容为转载，项目代码为别人的下载过来，自己也在实现一个个人博客，维护点自己的东西，先参考下别人的，哈哈
+My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系统，博客模板是大神的开源项目[tale](https://github.com/otale/tale)，本来是一个docker和springboot的实战练习项目，目前已经开源，功能齐全、部署简单及完善的代码，一定会给使用者无与伦比的体验
 
 - **你可以拿它作为博客模板，因为My Blog界面十分美观简洁，满足私人博客的一切要求；**
 - **你也可以把它作为springboot技术的学习项目，My Blog也足够符合要求，且代码和功能完备；**
@@ -12,7 +12,7 @@ My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系�
 - **部署后你可以根据自己需求修改版权文案、logo图片、备案记录等信息；**
 - **My Blog还有许多不完善的地方，鄙人才疏学浅，望见谅！**
 
-演示站点：http://13blog.site
+
 
 [![Build Status](https://travis-ci.org/ZHENFENG13/My-Blog.svg?branch=master)](https://travis-ci.org/ZHENFENG13/My-Blog)
 ![Version 3.2.0](https://img.shields.io/badge/version-3.2.0-yellow.svg)
@@ -61,26 +61,4 @@ My Blog是由Docker+SpringBoot+Mybatis+thymeleaf等技术实现的Java博客系�
 **My Blog后台：**
 ![My Blog](https://raw.githubusercontent.com/ZHENFENG13/resource/master/images/2018-06-13/My-Blog-admin-2.gif)
 
-# Log
 
-2017-03-27 添加docker整合<br/>
-2017-03-28 schema.sql修改<br/>
-2017-03-28 install步骤，数据库地址配置时:mysql地址写为mysql容器的名字即可,即mysql:3306<br/>
-2017-03-29 修复添加评论时空指针异常的bug<br/>
-2017-03-30 添加预览功能,限制文章浏览，如果为草稿状态前端即使通过正确的url也不能浏览<br/>
-2017-03-31 文章浏览数不变的bug,后期浏览数及评论这些参数放到缓存里去<br/>
-2017-04-01 添加druid数据源<br/>
-2017-04-02 重写mysql的Dockerfile文件，修改install过程<br/>
-2017-04-15 bug修复,footer样式调整<br/>
-2017-04-17 logo文件修改,附件上传功能<br/>
-2017-04-18 评论功能及页面修改<br/>
-2017-04-20 域名及网站的公网备案<br/>
-2017-04-25 docker-compose实现多容器部署<br/>
-2017-05-09 删除原install过程,改为脚本自动部署及初始化<br/>
-2017-05-10 docker容器时区不同步问题修复,文件整理<br/>
-2017-05-11 文件整理,排版和文案修改<br/>
-2017-05-13 正式上线啦<br/>
-2017-05-15 部署文档<br/>
-2017-05-21 My-Blog上线过程记录<br/>
-2017-06-30 目录调整:docker组件化<br/>
-2017-07-20 问题修复:docker-compose重启时mysql容器中数据被删除并初始化的问题<br/>
